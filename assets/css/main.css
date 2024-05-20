@@ -1,122 +1,184 @@
 .header {
-    position: sticky;
-    top: 0px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 20px 0;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 0;
+  background-color: #fff;
 }
 
 .header .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .header .logo img {
-    width: 35px;
+  width: 35px;
 }
 
 .header .nav a {
-    color: #101928;
+  color: #101928;
 }
 
 .nav ul {
-    display: flex;
-    gap: 16.74px;
+  display: flex;
+  gap: 16.74px;
 }
 
 .header .auth a {
-    font-family: var(--subFont);
-    padding: 10px 40px;
-    border-radius: 5px;
+  font-family: var(--subFont);
+  padding: 10px 40px;
+  border-radius: 5px;
 }
 
 .header .auth a:first-of-type {
-    border: 1px solid var(--mainColor);
+  border: 1px solid var(--mainColor);
 }
 
 .header .auth a:last-of-type {
-    background-color: var(--mainColor);
-    color: white;
+  background-color: var(--mainColor);
+  color: white;
 }
 
+/* Start Testimonials */
+
+.testimonials {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.testimonials h2 {
+  margin-bottom: 30px;
+}
+
+.testimonials .row {
+  gap: 40px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: calc((100% - 40px) / 2);
+  align-items: flex-start;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.testimonial .user-info {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.testimonial .user-info .user-data {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.testimonial .user-info .user-data span {
+  font-size: 12px;
+  color: #969696;
+}
+
+.testimonial .user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testimonial .rating {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.testimonial q {
+  color: #646464;
+}
+
+/* End .Testimonial */
+
 .footer {
-    background-color: #393E46;
-    color: #fff;
-    padding: 50px 0;
+  background-color: #393e46;
+  color: #fff;
+  padding: 50px 0;
 }
 
 .footer .row {
-    gap: 40px;
+  gap: 40px;
 }
 
 .footer a {
-    color: #fff;
+  color: #fff;
 }
 
 .footer .footer-left-side,
-.footer .footer-right-side  {
-    width: calc( (100% - 40px) /2 );
-
+.footer .footer-right-side {
+  width: calc((100% - 40px) / 2);
 }
 
 .footer-left-side {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .footer .footer-left-side .logo_footer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
 }
 
 .footer .footer-left-side .logo_footer img {
-    width: 35px;
+  width: 35px;
 }
 
 .footer .footer-left-side .logo_footer a {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .footer .footer-left-side p {
-    color: #F4F4F4;
-    font-size: 14px;
-    font-weight: 200px;
+  color: #f4f4f4;
+  font-size: 14px;
+  font-weight: 200px;
 }
 
 .footer .footer-left-side .icons {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .footer .footer-left-side .icons img {
-    border: 1px solid #fff;
-    width: 15px;
-    height: 15px;
-    padding: 10px;
-    box-sizing: content-box;
+  border: 1px solid #fff;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  box-sizing: content-box;
 }
 
 .footer-right-side .row {
-    justify-content: space-evenly;
-    align-items: flex-start;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .footer-right-side .footer-items {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .footer-right-side .footer-items li {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
 }
